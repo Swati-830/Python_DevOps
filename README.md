@@ -145,7 +145,7 @@ Example:
 a = [1, 2, 3, 'Adi', True]  # List with mixed types
 print(a[3])                 # Output: 'Adi'
 
-# Modifying the list
+Modifying the list
 a[0] = 6
 print(a)                    # Output: [6, 2, 3, 'Adi', True]
 5. Tuple
@@ -155,7 +155,7 @@ Example:
 b = (1, 2, 3, 'Adi', True)  # Tuple with mixed types
 print(b[3])                 # Output: 'Adi'
 
-# b[0] = 6  # This will cause an error since tuples are immutable
+ b[0] = 6  # This will cause an error since tuples are immutable
 
 
 6. Dictionaries
